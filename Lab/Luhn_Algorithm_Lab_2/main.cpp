@@ -33,8 +33,8 @@ int main(int argc, char** argv) {
     srand(static_cast<unsigned int>(time(0)));
     
     //Declare And Initialize Variables:
-    int nCrds=10000;    //# of cards to generate.
-    int nVld,nInvld;    //# of Valid/Invalid CC Numbers.
+    int nCrds=10000;       //# of cards to generate.
+    int nVld=0,nInvld=0;   //# of Valid/Invalid CC Numbers.
     
     //Set the Credit Cards up using the enumerated data type.
     //The genCC function returns a valid credit card number.
