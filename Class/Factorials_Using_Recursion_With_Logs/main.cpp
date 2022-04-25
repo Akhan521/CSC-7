@@ -53,7 +53,7 @@ int main(int argc, char** argv){
 //1st Arg: The log of our factorial with base e.
 //2nd Arg: The variable that will hold the fractional component of our factorial log.
 int split(float logFct,float &frac){
-    //Convert to Base 10 using change of base formula: (log(10)=ln(fctrl)/ln(10)).
+    //Convert to Base 10 using change of base formula: (log(fctrl)=ln(fctrl)/ln(10)).
     float lgBse10=logFct/log(10.0f);
     //Divide the log into an integer and fraction -> characteristic and mantissa:
     int iLgBs10=lgBse10;  //The int comp. of our log with base 10.
