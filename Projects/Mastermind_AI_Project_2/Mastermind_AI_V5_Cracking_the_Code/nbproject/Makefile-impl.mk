@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Mastermind_AI_Cracking_the_Code
+PROJECTNAME=Mastermind_AI_V5_Cracking_the_Code
 
 # Active Configuration
 DEFAULTCONF=Debug
