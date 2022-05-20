@@ -81,9 +81,11 @@ string AI(char rr,char rw){
                             //falsely set fndPos1 to true. We want to set fndPos1 only when we've
                             //found all of our digits and the hint is not for guesses 0000-8888.
     static int foundOn;     //To hold what guess number we found a position on.
+    
     cout<<"Guess # "<<nGuesses<<endl;
-    //If we don't have all 4 digits or we're still testing for digits in our code (0-8).
-    if(nClrs!=4||digit<=7){ 
+    //If we don't have all 4 digits, we keep testing for colors in our code.
+    //(If we don't have all 4 digits, that means we're still testing the digits 0-8).
+    if(nClrs!=4){ 
         if(digit!=8){   //If we haven't tried digits 0-8...
             digit+=1;   //0,1,2,...,8.
         }
