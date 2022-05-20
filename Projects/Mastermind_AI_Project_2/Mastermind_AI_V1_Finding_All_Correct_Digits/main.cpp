@@ -40,6 +40,7 @@ int main(int argc, char** argv) {
        guess=AI(rr,rw);
     }while(eval(code,guess,rr,rw));
     */
+    
     //Output the solution
     for(int i=0;i<10;i++){
         nGuess++;
