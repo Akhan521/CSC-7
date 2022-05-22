@@ -162,10 +162,6 @@ string AI(char rr,char rw){
                 //cout<<"\nPos1 = "<<pos1<<endl;
                 //cout<<"Digit = "<<answr[pos1]<<endl;
             }
-            //If our code ends up being 0000,or 1111,or ...,or 8888, then we just return it.
-            else if(rr==4&&nGuesses<=9){
-                return sGuess;
-            }
         }
         //If we've already found pos 1, we now move on to fidning pos 2.
         else if(fndPos1&&!fndPos2){

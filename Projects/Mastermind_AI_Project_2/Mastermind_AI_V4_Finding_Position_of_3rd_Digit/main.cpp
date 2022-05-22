@@ -185,10 +185,6 @@ string AI(char rr,char rw){
                 //Store the index of where the 1st digit is located.
                 pos1=index;
             }
-            //If our code ends up being 0000,or 1111,or ...,or 8888, then we just return it.
-            if(rr==4){
-                return sGuess;
-            }
         }
         //If we've already found pos 1, we now move on to finding pos 2.
         if(fndPos1&&!fndPos2){

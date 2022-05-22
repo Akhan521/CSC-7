@@ -190,10 +190,6 @@ string AI(char rr,char rw){
                 //Store what guess # we found position 1 on.
                 foundOn=nGuesses;
             }
-            //If our code ends up being 0000, 1111, ..., or 8888, then we just return it.
-            if(rr==4){
-                return sGuess;
-            }
         }
         //If we've already found pos 1, we now move on to finding pos 2.
         if(fndPos1&&!fndPos2){
