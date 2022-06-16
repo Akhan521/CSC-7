@@ -52,11 +52,14 @@ void merge(int [],int [],int [],int,int); //The merge function used in mergeSort
 int main(int argc, char** argv) {
     //Initialize the Random Number Seed
     srand(static_cast<unsigned int>(time(0)));
+    
     //Declare Variables:
     int size=100;
     int array[size];
+    
     //Map Inputs to Outputs -> Process:
     fillAry(array,size);
+    
     //Display Inputs/Outputs:
     cout<<"Before (Unsorted): \n";
     print(array,size,10);
@@ -64,6 +67,7 @@ int main(int argc, char** argv) {
     mergeSort(array,size);
     cout<<"After (Sorted): \n";
     print(array,size,10);
+    
     //Exit the Program - Cleanup
     return 0;
 }
