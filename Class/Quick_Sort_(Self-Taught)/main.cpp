@@ -1,6 +1,6 @@
 /* 
- * File:   main.cpp
- * Author: Aamir Khan
+ * File:    main.cpp
+ * Author:  Aamir Khan
  * Created on July 2nd, 2022, 6:30 PM
  * Purpose: Quick Sort Algorithm
  * 
